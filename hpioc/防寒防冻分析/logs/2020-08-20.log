@@ -1,0 +1,5 @@
+2020-08-20 11:03:31,622 [MainThread:12340] [root:18] [INFO]- 开始初始化
+2020-08-20 11:03:31,622 [MainThread:12340] [root:19] [INFO]- 安装模块,仓库地址是：http://pypi.tuna.tsinghua.edu.cn/simple
+2020-08-20 11:03:31,623 [MainThread:12340] [root:19] [INFO]- 执行安装命令： pip install -r config/requirements.txt -i http://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn --timeout 180 --user
+2020-08-20 11:03:35,057 [MainThread:12340] [root:19] [INFO]- 安装模块完毕
+2020-08-20 11:03:35,057 [MainThread:12340] [root:20] [INFO]- 三方包下载完毕

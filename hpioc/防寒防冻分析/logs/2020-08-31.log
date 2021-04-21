@@ -1,0 +1,6 @@
+2020-08-31 16:56:03,113 [MainThread:13660] [root:18] [INFO]- 开始初始化
+2020-08-31 16:56:03,115 [MainThread:13660] [root:19] [INFO]- 安装模块,仓库地址是：http://pypi.tuna.tsinghua.edu.cn/simple
+2020-08-31 16:56:03,115 [MainThread:13660] [root:19] [INFO]- 执行安装命令： pip install -r config/requirements.txt -i http://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn --timeout 180 --user
+2020-08-31 16:59:51,490 [MainThread:13660] [root:19] [INFO]- 安装模块完毕
+2020-08-31 16:59:51,491 [MainThread:13660] [root:20] [INFO]- 三方包下载完毕
+2020-08-31 16:59:55,424 [MainThread:13660] [fbprophet.plot:39] [ERROR]- Importing plotly failed. Interactive plots will not work.
