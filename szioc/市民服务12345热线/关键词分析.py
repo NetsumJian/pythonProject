@@ -5,13 +5,13 @@ import jieba
 import jieba.posseg as pseg
 
 # 设置工作目录
-os.chdir(r'C:\Users\dwx1024047\Documents\Work\12345热线\V2')
+os.chdir(r'C:\Users\dwx1024047\Documents\Work\12345热线\V4')
 
 # 加载数据
-txt = open("ts_content_word.txt", encoding="utf8").read()
+txt = open("办结信息.txt", encoding="utf8").read()
 
 # 加载用户自定义词典
-jieba.load_userdict("userdict.txt")
+# jieba.load_userdict("userdict.txt")
 
 # 加载用户自定义禁词
 stopwords = [line.strip() for line in open("stopword.txt", encoding="utf8").readlines()]
@@ -22,7 +22,7 @@ word_flag = {}
 all = []
 
 # 词频统计
-with codecs.open(filename='ts_content_count_cixing.csv', mode='w',encoding="utf8")as f:
+with codecs.open(filename='banjie.csv', mode='w',encoding="utf8")as f:
     write = csv.writer(f, dialect='excel')
     write.writerow(["word", "count", "flag"])
 
